@@ -1,0 +1,337 @@
+/*
+.video-container {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+}
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  overflow-y:hidden ;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+*/
+
+.video-container video {
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+
+/* 3rd
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  overflow-y:hidden ;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+*/
+
+@media screen and (max-width: 768px) {
+ 
+/*section1*/
+#background-video 
+{
+   display: none; 
+}
+/*
+.section1 {
+      background: url("Images/5091285.jpg") no-repeat;
+      background-size: cover;
+}
+*/
+
+.section1 {
+  
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.section1 .hero-action-btn button{
+  margin-left: -30px;
+}
+  /*section-2*/
+
+ section .apply-about{
+  max-width: 100%;
+  gap: 30px;  
+  margin-right: 10px;  
+}
+section .apply-ponits{
+    flex-direction: column;
+    margin-inline: auto;
+    gap:15px
+}
+.apply-col-2 {
+  margin-right: 0;
+}
+section .ponits-data{
+ margin: 0;
+ align-items: center;
+ height: 120px;
+ 
+}
+section .ponits-data-2{
+  margin: 0;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 120px;
+ }
+.point-4 .point-detail>h3, .point-4 .point-detail>p {
+  text-align: right;
+ 
+  width: 100%;
+}
+.point-4{
+  margin: 0;
+}
+.point-detail p {
+    margin: 0;
+}
+
+.point-image{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.point-4.ponits-data-2 {
+  margin-top: -30px;
+}
+.apply-ponits .point-2 > .point-detail{
+  margin-right: 7%;
+}
+.apply-ponits .point-3 > .point-detail{
+  margin-right: 4%;
+}
+.apply-ponits .point-5 > .point-detail{
+  margin-right: 4%;
+
+}
+
+.apply-ponits .point-5{
+  margin-top: -15px;
+}
+/*section-3*/
+
+section .work-section{
+  flex-direction: column;
+}
+section .work-points{
+  flex-direction: column;
+  margin:10px;
+  width: 60%;
+  margin-inline: auto;
+}
+.res-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 25px;
+}
+.apply-about{
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+
+/*section 4*/
+
+.place-info h6 {
+  font-size: 11px;
+}
+
+.nomination-quote {
+  display: flex;
+  width: 70%;
+  margin-inline: auto;
+  text-align: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.place-info {
+  margin: 50px;
+}
+
+/*footer*/
+footer {
+  padding: 70px 20px 20px 20px;
+}
+.footer-1 p {
+  width: 80%;
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+.footer-logo{
+  justify-content: center;
+}
+.footer-cols{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-social {
+
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.footer-social svg{
+  width: 25px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .two , .three{
+    min-height: 700px;
+}
+  .section1 {
+  
+    padding-top: 50px;
+    padding-left: 35px;
+  }
+  section .work-points{
+    width: 85%;
+  }
+ 
+  .apply-ponits {
+    max-width: 70vw;
+   
+ }
+ .point-detail p {
+   font-size: 11px;
+   margin-left: 5px;
+
+ }
+ .ponits-data, .ponits-data-2 {
+  gap: 30px;
+}
+.point-detail h3{
+  font-size: 12px;
+}
+
+.place-info {
+  margin: 50px 20px;
+}
+.section1 .hero-action-btn button{
+  margin-left: -15px;
+}
+.apply-about h4 , .res-heading h4 {
+  font-size: 38px;
+}
+.nomination-quote h6 {
+  font-size: 13px;
+}
+.place-info h5 a{
+  font-size: 11px;
+}
+.place-info h6 a {
+  font-size: 11px;
+}
+
+.footer-social svg{
+  width: 20px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1100px){
+
+  .footer-1 p {
+    font-size: 14px;
+    width: 71%;
+  }
+  .footer-contact {
+    padding: 20px 60px;
+  }
+
+}
+
+@media (min-width: 500px) and (min-height: 1100px){
+
+.one , .two , .three{
+  height: 40vh;
+}
+.footer-cols{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.footer-1 p {
+  width: 100%;
+  margin:20px;
+  margin-bottom: 40px;
+}
+.footer-logo{
+  justify-content: center;
+  align-items: center;
+
+}
+.footer-1{
+  flex-basis: 100%;
+}
+.work-points {
+  flex-wrap: wrap;
+ }
+.work-1 , .work-2 , .work-3 , .work-4{
+  flex-basis: 45%;
+}
+
+.footer-contact{
+  padding: 30px 50px;
+  flex-basis: 100%;
+
+}
+.footer-contact{
+  font-size: 60%;
+}
+
+}
